@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'touch file'
+                sh 'touch file1'
             }
         }
         stage('Test'){
